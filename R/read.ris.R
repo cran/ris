@@ -99,7 +99,7 @@ ris.city <- "CY"
 ris.publisher <- "PB"
 ris.isbn <- "^SN"
 ris.address <- "^AD"
-ris.pages <- "^[ES]P"
+ris.pages <- "(^[ES]P)|(^PG)"
 ris.url <- "^UR"
 
 fields <- c(
